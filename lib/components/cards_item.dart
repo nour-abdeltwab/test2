@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CardsItem extends StatelessWidget {
-  final Image img;
+  final String img;
   final String title1;
   final String title2;
   final String price;
@@ -22,7 +22,7 @@ class CardsItem extends StatelessWidget {
           Container(
             width: 150,
             height: 150,
-            child: img,
+            child: Image.asset(img),
           ),
           Container(
             child: Column(
