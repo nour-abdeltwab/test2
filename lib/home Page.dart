@@ -46,12 +46,12 @@ class _MyHomePageState extends State<MyHomePage> {
     Product(
         title1: "Urethral Catheter",
         title2: "Urinary Catheterization",
-        imagePath: 'assets/logos.png',
+        imagePath: 'assets/bg.png',
         price: " 50.0"),
     Product(
         title1: "Surgical Scissors",
         title2: "Shose with nick",
-        imagePath: 'assets/bg.png',
+        imagePath: 'assets/logos.png',
         price: "450.0"),
   ];
   // final List<String> images = [
